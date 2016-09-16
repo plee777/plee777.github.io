@@ -1,0 +1,54 @@
+h1 {
+	font-family: "Arial";
+}
+
+p {
+	background-color: white;
+}
+
+body {
+	background:gray;
+	max-width: 960px;
+	margin-right: 10%;
+
+}
+
+.company {
+	box-shadow: purple;
+	max-width: 900px;
+	padding: left;
+	font-weight: bold;
+	border: dashed;
+}
+
+#social {
+	border: dotted;
+	padding: right;
+	text-transform: capitalize;
+}
+
+#photo {
+	border: ridge;
+	padding: left;
+	text-transform: uppercase;
+	background-color: green;
+
+}
+
+
+@media screen and (max-width: 500px) {
+  #social {
+    background-color: red;
+    display: none
+  }
+
+@media screen and (max-width: 500px) {
+  p {
+    font-size: small;
+  }  
+
+@media screen and (max-width: 500px) {
+  .company {
+    text-align: center;
+}
+
